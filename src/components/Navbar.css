@@ -1,0 +1,28 @@
+/* Navbar.css */
+
+/* Custom styles for Navbar */
+.navbar {
+  justify-content: space-between; /* This will force justify content */
+}
+
+.navbar-brand img {
+  max-height: 50px; /* Adjust the max-height as needed */
+  max-width: 80%; /* Ensure the logo doesn't exceed its container */
+  margin-right: 10px; /* Optional: Add some spacing to the right of the logo */
+}
+
+
+/* Rest of your existing styles */
+.navbar-brand-container {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-collapse-container {
+  flex-grow: 1;
+}
+
+.navbar-right-container {
+  margin-left: auto;
+}
+
